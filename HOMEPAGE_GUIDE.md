@@ -19,6 +19,8 @@
 | 每篇论文的标题、摘要、链接及详细介绍 | `_publications/`，每篇一个 Markdown 文件 |
 | 展示图片、视频 | `images/publications/项目名/` |
 | PDF、简历 | `files/` |
+| 当前中文 CV（2025 年 7 月版） | `files/cv/Hao-Zhang-CV-zh-2025-07.pdf` |
+| 原始 Overleaf 主文件 | `_cv_source/Hao-Zhang-CV-zh-2025-07.tex`，尚缺 `resume.cls` 等完整模板依赖 |
 | 首页论文展示模板 | `_includes/publication-showcase.html` |
 | 首页论文展示样式 | `_sass/_publication-showcase.scss` |
 | 顶部导航 | `_data/navigation.yml` |

@@ -4,6 +4,8 @@ Homepage order is biography, Research interests, News, Publications. Preserve th
 
 The user writes Chinese and wants the public website in English.
 
+The CV page is an exception for the document itself: it hosts the user's original Chinese PDF dated July 2025, with English page labels and a clear historical-version note. Preserve the original PDF and LaTeX source under `files/cv/` and `_cv_source/`; never use old CV claims to overwrite current profile facts. `_cv_source/` is excluded from generated pages; the full Overleaf template dependencies have not been supplied.
+
 - Read `中文编辑.md` when asked to update homepage wording or sync the Chinese draft. It is the preferred editable source for the profile, biography, research interests, and homepage news.
 - Also read `项目与科研经历中文稿.md` for engineering projects and detailed research experience. Publish only completed, confirmed entries, never blank templates or pending ownership checks. The user says existing projects were reused from a senior student's website: do not assume existing project or CV text establishes ownership. Confirm which entries to replace or remove; do not infer publication authorship from project overlap.
 - Translate changed Chinese content into clear academic English in `_config.yml` and `_pages/about.md`. Preserve links and factual meaning. Do not invent affiliations, achievements, authorship, dates, or paper metadata. Ask only when a factual ambiguity blocks an accurate change.

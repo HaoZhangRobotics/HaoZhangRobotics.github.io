@@ -179,6 +179,7 @@ exclude:  # 排除的文件和目录
   - 中文编辑.md
   - 项目与科研经历中文稿.md
   - _archived_content
+  - _cv_source
   - AGENTS.md
 keep_files:  # 保留的文件（即使在--safe模式下）
   - .git

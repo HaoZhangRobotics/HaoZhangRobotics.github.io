@@ -1,0 +1,171 @@
+\documentclass{resume}
+\ResumeName{张皓}
+\usepackage{graphicx}
+\begin{document}
+% 插入图片，右上角
+
+
+\ResumeContacts{
+  (+86) 159-3743-0315,%
+  \ResumeUrl{mailto:haozhang46100@gmail.com}{haozhang461000@gmail.com}\\%
+  QQ：1061639678 ,
+  \ {WX: Zhao\_reed}\\
+}
+
+\ResumeTitle
+
+\section{教育经历}
+\ResumeItem
+{西北农林科技大学(985)}
+[\textnormal{机械电子工程|GPA2.8 | 工学学士学位}]
+[2021.09 - 2025.06]
+\ResumeItem
+{西北农林科技大学(985)}
+[\textnormal{软件工程（辅修）|GPA3.65 | 工学学士学位}]
+[2022.09 - 2025.06]
+\ResumeItem
+{西湖大学|访问学者}
+[\textnormal{人工智能系|可信及通用人工智能实验室|金耀初教授}]
+[2025.06 - 2025.07]
+
+
+\section{实习经历}
+\ResumeItem
+{清华大学(985)}
+[\textnormal{信息科学与技术学院| 智能技术与系统国家重点实验室}]
+[2024.07 - 2025.06]
+\ResumeItem
+{清华大学(985)}
+[\textnormal{智能产业研究院 | 芯辰启航科技有限公司}]
+[2024.11 - 2025.06]
+
+\section{研究兴趣}
+视觉语言导航、人形机器人、视觉语言导航、双臂规划控制、具身智能
+
+
+
+\section{项目经历}
+\ResumeItem{清华大学计算机系}
+[\textnormal{面向跨域异构自主无人系统的高端智能控制器集成验证（3710万元）|}]
+[\textnormal{多旋翼无人机-机械臂平台（600万元子课题）}]
+\begin{itemize}
+    \item 描述：面向开放通用智能控制器在物流、农业、安防、无人驾驶、水下作业等重点行业中规模化应用需求，研究高端控制器跨域强适应性与集成技术，突破自主无人系统智能控制器的环境适应性设计、加固与优化，及特定应用需求下的软硬件系统二次开发与专用算法设计等技术，在3类5种跨域异构自主无人系统上实现高端智能控制器的部署、集成和应用验证。
+    \item 成果：验证爆炸物识别、爆炸物处置等功能≥3种；SLAM最大可支持场景≥1000平方米；爆炸物感知目标检出率≥95%
+    \item 职责：在Jetson Orin NX上实现多种SLAM建图算法如ORB-SLAM纯视觉方案、FASTLIO激光方案等，在Altas国产设备上实现高精度SLAM建图可支持场景>1000平方米，通过局域网、ROS2实现多机通讯。使用D435I和睿尔曼机械臂完成手眼标定、物品抓取。
+\end{itemize}
+
+\ResumeItem{自主探索规划无人机}
+\begin{itemize}
+    \item 描述：基于视觉与点云融合，实现自主导航避障、探索建图的无人机。
+    \item 成果：实现树林等多障碍物环境的穿梭避障，完成校园场景三维重建。
+    \item 职责：完成无人机碳纤维硬件组装，完成雷达、相机、工控机、电源、GPS、飞控等设备的走线、焊接。使用多地面站如Qground、Prometheus对比开发尝试，完成基于地面站的定点航行、起飞降落。实现基于SSH、nomachine等方式远程通讯。完成基于D435i和飞控IMU的Vins-Fusion定位，完成Vins-mono、Orb-slam等SLAM算法的部署，并通过完成Ego-planner、Fast-panner等规划算法实现，创新使用了激光定高二维建图以积分形式完成室内场景定位导航。
+\end{itemize}
+
+\ResumeItem{基于SLAM与计算机视觉的自主导航机器人}
+\begin{itemize}
+    \item 描述：使用ROS框架部署SLAM算法，基于激光雷达和深度相机完成自主导航，并且完成仿真环境与实际实验。
+    \item 成果：在普通水泥、柏油路等校园场景完成基于先验地图的校园级的自动驾驶。
+    \item 职责：在阿克曼小车的基础将下层封装为可调用的SDK，分别实现以Autoware、movebase实现二维三维导航，在视觉上实现了AR标签识别、KCF跟随、人体骨架识别跟随、基于yolo的特定标志识别、手势控制、以RTAB-map为基础的纯视觉建图导航，在建图上以Gmapping、Hector、Catorgrapher实现二维建图，以LIO-SAM、LeGo-LOAM实现三维建图，实现了基于A*、Dijkstra的全局路径规划，基于局部膨胀点云的局部路径规划。
+\end{itemize}
+
+
+
+
+\section{科研经历|PUBLICATIO}
+
+\ResumeItem{VERSA-Nav: Versatile Object-Goal Navigation Across Environments using Lightweight Explicit Maps and Open-Vocabulary Scene Graphs 2025 RAL(under review)}
+%[\textnormal{PUBLICATION}]
+\begin{itemize}
+  %  \item 论文：VERSA-Nav: Versatile Object-Goal Navigation Across Environments using Lightweight Explicit Maps and Open-Vocabulary Scene Graphs 2025 RAL(在写)
+    \item 内容：实现室内外环境中Zero-shot视觉语言导航。
+    \item 职责：通过Blip2视觉语言模型完成图像-文本相似度检测，通过矩阵变换，将值赋予到前沿点，得到第一个value；通过OSM语义地图，完成语义信息获取，基于tag的语义信息和prompt由llm返回建筑物中心点概率，通过高斯衰减完成地图价值化；将归一化后的概率点与Blip返回的相似度进行加权，基于此进行视觉语言导航，使用Yolov7做回环检测识别到目标物后立即停止。
+\end{itemize}
+
+
+
+
+\section{课程设计}
+\ResumeItem{基于STM32的采摘机器人}
+[\textnormal{所有任务型全部完成，组间最优}]
+\begin{itemize}
+    \item 使用灰度传感器，通过多个其上光敏电阻的信号变换，完成颜色识别与循迹。
+    \item 使用OpenMV模块完成对红绿色盆栽识别，将标志位发送给STM32，调用机械臂完成盆栽抓取。
+\end{itemize}
+
+\ResumeItem{基于Yolo的猕猴桃花蕾检测}
+[\textnormal{同组最优}]
+\begin{itemize}
+    \item 完成对猕猴桃花蕾数据标定，为避免小数据集的过拟合现象，对数据集进行旋转、缩放、裁剪，引入替换模式，对曝光等进行随机生成以提高泛化性。
+    \item 对模型进行预训练，在初步的loss下降后，通过观察每组图片生成结果，进行客制化训练，如错误识别则对相应标签进行扩充。
+    \item 引入了CBAM、SEnet等注意力机制对重要特征如多个花蕾目标的特征进行着重提取。
+\end{itemize}
+\ResumeItem{基于Unreal与Airsim的无人机仿真系统设计}
+\begin{itemize}
+    \item 使用Unreal4.27完成场景建模。
+    \item 通过A*进行全局路径搜索，使用Bspline进行轨迹优化，通过梯度迭代调整控制点的最小化目标函数，完成径迹生成，验证运动学与动力学可行性，生成最终样条曲线。
+    \item 使用参数方程完成对伯努利双曲线方程分解，算出加速度与速度信息，再进行动力学反解，讲解算信息发送给电机部分，完成运动学、动力学建模，实现对双曲线的拟合精度对比。    
+\end{itemize}
+
+\ResumeItem{基于RTK与LIO的双精度误差分析}
+\begin{itemize}
+    \item 运行IMU惯导、GPS模块，启动雷达建图节点，通过融合IMU惯导信息与雷达点云信息，进行相对位置计算，通过RTK接收绝对位置信息。将两个节点信息echo到txt中，对数据进行遍历提取出位置坐标，对RTK的经纬度信息完成坐标转换，对数据进行等值筛选，完成相对坐标与绝对坐标的信息对齐，生成一个十万行三维的矩阵，计算误差折线、协方差矩阵。
+\end{itemize}
+
+
+\section{毕业设计}
+\ResumeItem{主修毕设}
+[\textnormal{基于ROS和LLM的智能体控制设计}]
+\begin{itemize}
+    \item 描述：实现室内外基于先验语义信息的视觉语言导航。通过先验语义信息获取高价值点，随后进行高斯衰减，形成空间先验概率地图；通过视觉语言模型获取局部价值匹配图，与全局概率进行归一化得到高价值前沿点；通过深度强化学习进行前沿点的导航。
+
+\end{itemize}
+\ResumeItem{辅修毕设}
+[\textnormal{基于大语言模型的机器人操作抓取方法研究及应用}]
+\begin{itemize}
+    \item 描述：通过llm做任务序列拆解，vlm生成价值化体素，基于价值进行规划。通过LLM对语义进行分析，获取需求动作与目标点，通过VLM对空间进行价值化生成先验价值图；趋向点比避开点分别为±1，向空间进行衰减，再与先验价值融合，形成体素价值空间；基于体素空间进行三维贪心规划。
+
+\end{itemize}
+
+
+\section{知识体系}
+\begin{itemize}
+    \item \textbf{SLAM：}熟悉二维、三维激光建图算法，可以使用MID360、MID70、Robosense、AVIA等雷达完成陆地天空建图、无人机/车感知任务。知晓基于深度学习的三维重建脉络，使用过经典的mvs和nerf，可快速切入某一点学习。
+    \item \textbf{UAV\&UGV方面：}可以在多种仿真器中完成无人机、无人车的导航算法部署，在规划上熟悉且实际部署过基于梯度优化、启发式搜索以及基于PPO的导航算法。
+    \item \textbf{深度学习方面：}了解并跑过主流深度学习框架如基于pytorch的yolo系，基于paddle的ppyolo系等，实现过行人、猕猴桃、花蕾、安全帽等任务检测。
+    \item \textbf{强化学习方面：}了解基本的白盒问题，如多臂老虎机、马尔可夫决策过程及其基本的优化如从动作、状态价值；基本黑盒问题，MC、TD两种缺P(s,a)的、引入dl求导去优化策略本身，可以在unreal中用PPO去优化基本穿圈；了解较前沿如RT系列工作、及引入扩散后的RDT等。
+    \item \textbf{英语：}四级560，六级493。
+\end{itemize}
+
+
+
+\section{竞赛经历}
+\ResumeItem
+{第十三届全国大学生数学竞赛陕西省三等奖}
+[\textnormal{}]
+[2021.12]
+\ResumeItem
+{美国大学生数学建模竞赛S奖}
+[\textnormal{}]
+[2022]
+\ResumeItem
+{2022年中国人工智能挑战赛省二等奖}
+[\textnormal{}]
+[2022.7]
+\ResumeItem
+{第十五届人工智能挑战赛国家二等奖}
+[\textnormal{}]
+[2022.8]
+\ResumeItem
+{2023年中国大学生计算机设计大赛西北赛区一等奖}
+[\textnormal{}]
+[2023.5]
+\section{专利}
+\ResumeItem
+{实用新型专利}
+[\textnormal{一种粘度仪}]
+[2023.3]
+\ResumeItem
+{实用新型专利}
+[\textnormal{一种AGV小车载物支架}]
+[2023.8]
+\end{document}
