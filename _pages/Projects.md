@@ -9,6 +9,18 @@ redirect_from:
 
 My undergraduate engineering work focused on building robotic systems and deploying perception, mapping, and navigation algorithms on real hardware.
 
+## Intelligent Controller Integration for Heterogeneous Unmanned Systems
+
+**Science and Technology Innovation 2030 — New Generation Artificial Intelligence**
+
+**Task period:** June 2022 – May 2025
+
+At Tsinghua University, I worked on SLAM deployment and system integration for a UAV–manipulator demonstration platform. The research task brought together object recognition, manipulation, and outdoor mapping to validate intelligent controllers for heterogeneous unmanned systems.
+
+<a href="{{ '/projects/tsinghua-controller/' | relative_url }}"><img src="{{ '/images/projects/tsinghua-controller/flight-and-grasping.jpg' | relative_url }}" alt="UAV manipulator platform during an outdoor flight demonstration" loading="lazy" style="width:100%;max-width:640px;height:auto;"></a>
+
+[Project details and three demonstration videos]({{ '/projects/tsinghua-controller/' | relative_url }})
+
 ## Autonomous UAV Exploration and Navigation
 
 I developed a UAV system for autonomous navigation, obstacle avoidance, and exploration mapping using visual and point-cloud data.
