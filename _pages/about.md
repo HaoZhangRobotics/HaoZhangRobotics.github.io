@@ -7,7 +7,7 @@ redirect_from:                     # 重定向设置：从以下路径重定向�
   - /about.html                    # 从/about.html重定向到首页
 ---
 
-Hi! I am a research assistant in the Department of Artificial Intelligence at Westlake University in Hangzhou, advised by [Prof. Yaochu Jin](https://en.westlake.edu.cn/faculty/yaochu-jin.html).
+Hi! I am a first-year PhD student in the Trustworthy and General Artificial Intelligence Laboratory, Department of Artificial Intelligence, at Westlake University, advised by [Prof. Yaochu Jin](https://en.westlake.edu.cn/faculty/yaochu-jin.html).
 
 I received dual bachelor's degrees in Mechatronics Engineering and Software Engineering from Northwest A&F University in 2025.
 
@@ -16,16 +16,10 @@ Starting in 2024, I undertook research internships at Tsinghua University. I wor
 ## Research interests
 During my undergraduate studies, I focused on robot mobility and manipulation. I gained extensive experience implementing and reproducing research in perception, navigation, and manipulation across UAVs, UGVs, quadrupeds, humanoids, and robotic arms.
 
-My current research explores how robots can understand open-vocabulary descriptions in open-world environments, navigate to specified locations, and perform the corresponding manipulation tasks. Through this work, I hope to advance physical intelligence.
+My current research focuses on incorporating robots' physical capabilities into perception and planning.
 
 If you have ideas or projects related to these interests, please feel free to contact me. I welcome opportunities to collaborate, exchange ideas, and learn from others.
 
-
-## News
-
-- **2025-06:** Volunteered at CEC 2025 in Hangzhou. [Photos]({{ '/News/' | relative_url }})
-- **2025-03:** Our work on locomotion joint angle and moment estimation with soft wearable sensors was published in *IEEE Transactions on Neural Systems and Rehabilitation Engineering*. [Paper](https://doi.org/10.1109/TNSRE.2025.3547361)
-- **2025-01:** Volunteered at the inaugural meeting of the CCF-AI evolutionary computation group. [Photos]({{ '/News/' | relative_url }})
 
 ## Publications
 

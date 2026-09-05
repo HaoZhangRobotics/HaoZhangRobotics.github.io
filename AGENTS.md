@@ -3,6 +3,7 @@
 The user writes Chinese and wants the public website in English.
 
 - Read `中文编辑.md` when asked to update homepage wording or sync the Chinese draft. It is the preferred editable source for the profile, biography, research interests, and homepage news.
+- Also read `项目与科研经历中文稿.md` for engineering projects and detailed research experience. Publish only completed, confirmed entries, never blank templates or pending ownership checks. The user says existing projects were reused from a senior student's website: do not assume existing project or CV text establishes ownership. Confirm which entries to replace or remove; do not infer publication authorship from project overlap.
 - Translate changed Chinese content into clear academic English in `_config.yml` and `_pages/about.md`. Preserve links and factual meaning. Do not invent affiliations, achievements, authorship, dates, or paper metadata. Ask only when a factual ambiguity blocks an accurate change.
 - Keep existing publication/project/CV pages unless the Chinese draft explicitly requests changes to them. An empty request section never means delete existing content.
 - Keep the Chinese source and English pages consistent when editing either language. Chinese editorial notes should not appear in generated HTML.
