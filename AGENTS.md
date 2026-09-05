@@ -1,5 +1,7 @@
 # Homepage editing workflow
 
+Homepage order is biography, Research interests, News, Publications. Preserve the approved English biography and interests unless explicitly requested otherwise. Keep empty News/Publications headings. All six legacy publication entries are archived; never restore them automatically. Navigation order: Publication, Project, Competition, CV, The team I joined. Competition stays empty until confirmed content is supplied.
+
 The user writes Chinese and wants the public website in English.
 
 - Read `中文编辑.md` when asked to update homepage wording or sync the Chinese draft. It is the preferred editable source for the profile, biography, research interests, and homepage news.

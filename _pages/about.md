@@ -21,8 +21,8 @@ My current research focuses on incorporating robots' physical capabilities into 
 If you have ideas or projects related to these interests, please feel free to contact me. I welcome opportunities to collaborate, exchange ideas, and learn from others.
 
 
+## News
+
 ## Publications
 
 {% include publication-showcase.html %}
-
-[More engineering projects and demonstrations]({{ '/Projects/' | relative_url }})

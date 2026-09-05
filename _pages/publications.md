@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
+{% if site.publications.size > 0 and site.author.googlescholar %}
 You can also find my articles on [Google Scholar]({{ site.author.googlescholar }}).
 {% endif %}
 
