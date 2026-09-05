@@ -1,0 +1,27 @@
+- title: Line-Following Mobile Grasping
+  description: A mobile robot demo combining line following with object grasping on a marked course.
+  videos:
+    - slug: line-following-grasping
+      caption: Physical robot demonstration
+- title: PPO-Based UAV Gate Traversal
+  description: Training and running a PPO policy for a simulated drone gate-traversal task. Both clips show simulation experiments.
+  videos:
+    - slug: ppo-training
+      caption: Policy training in simulation
+    - slug: ppo-simulation-deployment
+      caption: Running the trained policy in simulation
+- title: Reproducing a NeurIPS 2019 Drone Challenge Winning Solution
+  description: A learning exercise reproducing an existing winning solution in a simulated drone-racing environment.
+  videos:
+    - slug: neurips-2019-reproduction
+      caption: Solution reproduction in simulation
+- title: UAV Flight Tests in Unreal Engine
+  description: Simulation tests covering takeoff and landing, square flight paths, multi-drone control, and trajectory fitting.
+  videos:
+    - slug: unreal-flight-tests
+      caption: Unreal Engine test scenarios
+- title: Campus Scene Mapping
+  description: A campus mapping demo showing a reconstructed point cloud in RViz.
+  videos:
+    - slug: campus-mapping
+      caption: Point-cloud mapping visualization

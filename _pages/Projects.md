@@ -47,4 +47,18 @@ I developed a ROS-based navigation system using LiDAR and depth cameras, with bo
 
 **Results:** Demonstrated map-based autonomous driving across campus on paved roads, including concrete and asphalt surfaces.
 
+## Small Projects from My First Three Undergraduate Years
+
+A collection of early robotics demos and reproduction exercises:
+
+- **Line-following mobile grasping:** A physical robot demonstration.
+- **PPO-based UAV gate traversal:** Policy training and deployment in simulation.
+- **NeurIPS 2019 Drone Challenge solution reproduction:** A simulated drone-racing exercise.
+- **Unreal Engine UAV tests:** Takeoff, landing, flight paths, multi-drone control, and trajectory fitting.
+- **Campus scene mapping:** Point-cloud visualization in RViz.
+
+<a href="{{ '/projects/undergraduate-demos/' | relative_url }}"><img src="{{ '/images/projects/undergraduate-demos/line-following-grasping.jpg' | relative_url }}" alt="Early undergraduate mobile robot demo on a line-following course" loading="lazy" style="width:100%;max-width:640px;height:auto;"></a>
+
+[Explore five small projects and six demo videos]({{ '/projects/undergraduate-demos/' | relative_url }})
+
 For collaboration or questions about these projects, please [get in touch](mailto:{{ site.author.email }}).
