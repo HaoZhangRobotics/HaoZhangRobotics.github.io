@@ -1,0 +1,22 @@
+{% include base_path %}
+{% for post in site.publications reversed %}
+<article class="publication-showcase">
+  <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="publication-showcase__venue">{{ post.venue }} · {{ post.date | date: "%Y" }}</p>
+  {{ post.excerpt | markdownify }}
+  {% if post.preview_video %}
+  <video controls playsinline preload="none" aria-label="{{ post.title | escape }} demonstration">
+    <source src="{{ post.preview_video | relative_url }}" type="video/mp4">
+    <a href="{{ post.preview_video | relative_url }}">Watch the demonstration</a>
+  </video>
+  {% elsif post.preview_image %}
+  <a href="{{ base_path }}{{ post.url }}"><img src="{{ post.preview_image | relative_url }}" alt="{{ post.title | escape }} — research overview" loading="lazy"></a>
+  {% endif %}
+  <p class="publication-showcase__links">
+    <a href="{{ base_path }}{{ post.url }}">Details &amp; demonstrations</a>
+    {% if post.paperurl %} · <a href="{{ post.paperurl | escape }}">Paper</a>{% endif %}
+    {% if post.projecturl %} · <a href="{{ post.projecturl | escape }}">Project page</a>{% endif %}
+    {% if post.codeurl %} · <a href="{{ post.codeurl | escape }}">Code</a>{% endif %}
+  </p>
+</article>
+{% endfor %}

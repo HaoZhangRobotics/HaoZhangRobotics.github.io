@@ -1,0 +1,21 @@
+.publication-showcase {
+  margin: 0 0 2em;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid #eee;
+
+  h3 { margin: 1.3em 0 0.4em; }
+  p { margin-bottom: 0.8em; }
+
+  img, video {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    max-height: 380px;
+    height: auto;
+    object-fit: contain;
+    margin: 1em 0;
+  }
+
+  &__venue { color: #626970; font-size: 0.9em; }
+  &__links { font-size: 0.9em; }
+}

@@ -1,0 +1,13 @@
+# Homepage editing workflow
+
+The user writes Chinese and wants the public website in English.
+
+- Read `中文编辑.md` when asked to update homepage wording or sync the Chinese draft. It is the preferred editable source for the profile, biography, research interests, and homepage news.
+- Translate changed Chinese content into clear academic English in `_config.yml` and `_pages/about.md`. Preserve links and factual meaning. Do not invent affiliations, achievements, authorship, dates, or paper metadata. Ask only when a factual ambiguity blocks an accurate change.
+- Keep existing publication/project/CV pages unless the Chinese draft explicitly requests changes to them. An empty request section never means delete existing content.
+- Keep the Chinese source and English pages consistent when editing either language. Chinese editorial notes should not appear in generated HTML.
+- This is an assistant-mediated workflow: saving Chinese does not automatically invoke translation or push. Do not claim a background sync exists.
+- The user has requested the ongoing workflow: Chinese edits → English sync → local validation → GitHub push. When the user requests this workflow, complete it without asking for the same routine permission again. Respect any later instruction to preview only or hold publication.
+- Preserve Jekyll / AcademicPages and the existing local Ruby setup. Use `preview.ps1` for local preview. Validate production builds into `local/build-check` so an active preview's `_site` is not overwritten.
+- Verify the Chinese draft, this file, and `local/` are absent from build output. Never commit local runtimes, dependencies, logs, or generated websites.
+- Before pushing, inspect the diff, fetch the remote, and handle changes without overwriting user work or force-pushing. Report the commit/push outcome accurately; pushing does not itself prove GitHub Pages deployment succeeded.

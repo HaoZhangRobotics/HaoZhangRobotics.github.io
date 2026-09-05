@@ -1,5 +1,6 @@
 ---
 title: "Force Calibration and Prediction of Soft Stretch Sensor Based on Deep Learning"
+preview_image: "/images/publications/ICARM/ICARM2023.jpg"
 collection: publications
 permalink: /publication/2023-08-25-Force Calibration and Prediction of Soft Stretch Sensor Based on Deep Learning
 excerpt: 'This is my first paper on the study of flexible exoskeleton, where I designed the initial soft sensing unit, developed a capacitive reading device, learned how to use machine learning for time series prediction, how to deploy machine learning models on embedded devices and validated whether flexible sensors could replace traditional force gauges.'

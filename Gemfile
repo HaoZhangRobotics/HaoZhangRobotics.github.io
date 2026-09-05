@@ -16,13 +16,14 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Local Windows preview uses --force_polling, so no native wdm compiler is needed.
+gem "tzinfo-data" if Gem.win_platform?
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
+  # Jekyll's built-in --livereload handles browser refresh during local preview.
   gem "webrick", "~> 1.8"
 end

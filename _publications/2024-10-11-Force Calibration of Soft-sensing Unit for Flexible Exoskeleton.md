@@ -1,5 +1,6 @@
 ---
 title: "Force Calibration of Soft-sensing Unit for Flexible Exoskeleton"
+preview_video: "/images/publications/DOCS/DOCS.mp4"
 collection: publications
 permalink: /publication/2024-10-11-Force Calibration of Soft-sensing Unit for Flexible Exoskeleton
 excerpt: 'This paper is a continuation of the study on "Force Calibration and Prediction of Soft Stretch Sensor Based on Deep Learning.'

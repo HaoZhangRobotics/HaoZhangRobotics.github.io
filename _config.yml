@@ -12,9 +12,9 @@ title                    : "Welcome!"  # 网站标题
 title_separator          : "-"  # 标题分隔符
 name                     : &name "Welcome!"  # 网站名称（使用 YAML 锚点）
 description              : &description "I am an research assistant at Westlake University"  # 网站描述
-url                      : https://EvomniDroid.github.io # 网站基础URL和协议，例如 "https://mmistakes.github.io"
+url                      : https://HaoZhangRobotics.github.io # 网站基础URL和协议，例如 "https://mmistakes.github.io"
 baseurl                  : "" # 网站子路径，例如 "/blog"
-repository               : "EvomniDroid/EvomniDroid.github.io"  # GitHub仓库名称
+repository               : "HaoZhangRobotics/HaoZhangRobotics.github.io"  # GitHub仓库名称
 
 # Site Author - 网站作者信息，控制侧边栏作者内容的显示
 #               如果字段为空，图标和链接将不会显示，否则会显示
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Bitbucket用户名 - 请更新为您的用户名
   codepen          : # CodePen用户名
   dribbble         : # Dribbble用户名
-  github           : "https://github.com/EvomniDroid"  # GitHub链接
+  github           : "HaoZhangRobotics"  # GitHub链接
   kaggle           : # Kaggle用户名  
   stackoverflow    : # Stack Overflow用户ID或用户ID和姓名（例如："1"或"1/jeff-atwood"）
 
@@ -172,6 +172,12 @@ exclude:  # 排除的文件和目录
   - package.json
   - tmp
   - vendor
+  - local
+  - preview.ps1
+  - preview.cmd
+  - HOMEPAGE_GUIDE.md
+  - 中文编辑.md
+  - AGENTS.md
 keep_files:  # 保留的文件（即使在--safe模式下）
   - .git
   - .svn

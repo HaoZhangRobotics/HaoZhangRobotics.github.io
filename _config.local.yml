@@ -1,0 +1,8 @@
+# Only used by preview.ps1; production settings remain in _config.yml.
+url: "http://127.0.0.1:4000"
+baseurl: ""
+host: "127.0.0.1"
+port: 4000
+livereload: true
+livereload_port: 35729
+force_polling: true

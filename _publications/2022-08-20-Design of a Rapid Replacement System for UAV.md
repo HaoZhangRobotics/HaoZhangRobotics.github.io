@@ -1,5 +1,6 @@
 ---
 title: "Design of a Rapid Replacement System for UAV"
+preview_video: "/images/publications/UAV/UAV.mp4"
 collection: publications
 permalink: /publication/2022-08-20-Design of a Rapid Replacement System for UAV
 excerpt: 'This article is the result of my undergraduate graduation project.'
