@@ -39,27 +39,27 @@ The task's assessment requirements included a target detection rate of at least 
 
 ### Repeated grasping
 
-<video controls playsinline preload="none" poster="{{ '/images/projects/tsinghua-controller/repeated-grasping.jpg' | relative_url }}" style="display:block;width:100%;max-height:520px;object-fit:contain;" aria-label="Repeated grasping demonstration">
-  <source src="{{ '/images/projects/tsinghua-controller/repeated-grasping.mp4' | relative_url }}" type="video/mp4">
-  <a href="{{ '/images/projects/tsinghua-controller/repeated-grasping.mp4' | relative_url }}">Open the grasping video</a>
+<video controls playsinline preload="none" poster="{{ '/images/projects/tsinghua-controller/repeated-grasping.jpg' | relative_url }}?v=wm1" style="display:block;width:100%;max-height:520px;object-fit:contain;" aria-label="Repeated grasping demonstration">
+  <source src="{{ '/images/projects/tsinghua-controller/repeated-grasping.mp4' | relative_url }}?v=wm1" type="video/mp4">
+  <a href="{{ '/images/projects/tsinghua-controller/repeated-grasping.mp4' | relative_url }}?v=wm1">Open the grasping video</a>
 </video>
 
 A short excerpt from the repeated-grasping demonstration.
 
 ### Flight and grasping platform demonstration
 
-<video controls playsinline preload="none" poster="{{ '/images/projects/tsinghua-controller/flight-and-grasping.jpg' | relative_url }}" style="display:block;width:100%;max-height:520px;object-fit:contain;" aria-label="UAV manipulator flight demonstration">
-  <source src="{{ '/images/projects/tsinghua-controller/flight-and-grasping.mp4' | relative_url }}" type="video/mp4">
-  <a href="{{ '/images/projects/tsinghua-controller/flight-and-grasping.mp4' | relative_url }}">Open the flight demonstration</a>
+<video controls playsinline preload="none" poster="{{ '/images/projects/tsinghua-controller/flight-and-grasping.jpg' | relative_url }}?v=wm1" style="display:block;width:100%;max-height:520px;object-fit:contain;" aria-label="UAV manipulator flight demonstration">
+  <source src="{{ '/images/projects/tsinghua-controller/flight-and-grasping.mp4' | relative_url }}?v=wm1" type="video/mp4">
+  <a href="{{ '/images/projects/tsinghua-controller/flight-and-grasping.mp4' | relative_url }}?v=wm1">Open the flight demonstration</a>
 </video>
 
 Outdoor flight footage of the UAV–manipulator platform.
 
 ### Outdoor flight for mapping validation
 
-<video controls playsinline preload="none" poster="{{ '/images/projects/tsinghua-controller/flight-mapping.jpg' | relative_url }}" style="display:block;width:100%;max-height:520px;object-fit:contain;" aria-label="Outdoor UAV mapping field trial">
-  <source src="{{ '/images/projects/tsinghua-controller/flight-mapping.mp4' | relative_url }}" type="video/mp4">
-  <a href="{{ '/images/projects/tsinghua-controller/flight-mapping.mp4' | relative_url }}">Open the mapping field-trial video</a>
+<video controls playsinline preload="none" poster="{{ '/images/projects/tsinghua-controller/flight-mapping.jpg' | relative_url }}?v=wm1" style="display:block;width:100%;max-height:520px;object-fit:contain;" aria-label="Outdoor UAV mapping field trial">
+  <source src="{{ '/images/projects/tsinghua-controller/flight-mapping.mp4' | relative_url }}?v=wm1" type="video/mp4">
+  <a href="{{ '/images/projects/tsinghua-controller/flight-mapping.mp4' | relative_url }}?v=wm1">Open the mapping field-trial video</a>
 </video>
 
 Outdoor flight footage associated with the FAST-LIO mapping trial.

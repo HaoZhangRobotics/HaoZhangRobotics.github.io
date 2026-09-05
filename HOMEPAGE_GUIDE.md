@@ -1,5 +1,13 @@
 # 主页维护
 
+## Demo 水印
+
+当前正式展示的 9 个 demo 已在视频每一帧嵌入 `Hao Zhang | HaoZhangRobotics.github.io`，封面也从加水印视频提取。以后新增本人的 demo 同样处理。水印为画面底部居中白字、半透明黑底，保留音轨。
+
+本机处理前的视频备份在 `local/watermark-originals/`，不生成网页、不提交。源素材目录未修改。处理脚本与检查记录在 `local/watermark_demos.py`、`local/watermark-work/report.json`。已撤下或归属未确认的旧素材未加个人水印。
+
+Git 历史未改写，旧提交仍可能含无水印版本；更换当前视频不能收回已下载的副本。
+
 主页沿用 Jekyll / AcademicPages。首页现在集中展示个人介绍、News 和 Publications，论文按时间倒序自动读取。
 
 ## 中文编辑入口

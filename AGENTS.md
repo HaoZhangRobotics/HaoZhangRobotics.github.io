@@ -4,6 +4,8 @@ Homepage order is biography, Research interests, News, Publications. Preserve th
 
 The user writes Chinese and wants the public website in English.
 
+All published demo videos owned by the user must have `Hao Zhang | HaoZhangRobotics.github.io` burned into every frame, with readable contrast. Use watermarked frames for posters. Preserve original sources outside published output; do not watermark borrowed/archived third-party material as the user's work. Git history has not been rewritten and can still contain earlier unwatermarked versions.
+
 The CV page is an exception for the document itself: it hosts the user's original Chinese PDF dated July 2025, with English page labels and a clear historical-version note. Preserve the original PDF and LaTeX source under `files/cv/` and `_cv_source/`; never use old CV claims to overwrite current profile facts. `_cv_source/` is excluded from generated pages; the full Overleaf template dependencies have not been supplied.
 
 - Read `中文编辑.md` when asked to update homepage wording or sync the Chinese draft. It is the preferred editable source for the profile, biography, research interests, and homepage news.

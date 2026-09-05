@@ -17,7 +17,7 @@ My undergraduate engineering work focused on building robotic systems and deploy
 
 At Tsinghua University, I worked on SLAM deployment and system integration for a UAV–manipulator demonstration platform. The research task brought together object recognition, manipulation, and outdoor mapping to validate intelligent controllers for heterogeneous unmanned systems.
 
-<a href="{{ '/projects/tsinghua-controller/' | relative_url }}"><img src="{{ '/images/projects/tsinghua-controller/flight-and-grasping.jpg' | relative_url }}" alt="UAV manipulator platform during an outdoor flight demonstration" loading="lazy" style="width:100%;max-width:640px;height:auto;"></a>
+<a href="{{ '/projects/tsinghua-controller/' | relative_url }}"><img src="{{ '/images/projects/tsinghua-controller/flight-and-grasping.jpg' | relative_url }}?v=wm1" alt="UAV manipulator platform during an outdoor flight demonstration" loading="lazy" style="width:100%;max-width:640px;height:auto;"></a>
 
 [Project details and three demonstration videos]({{ '/projects/tsinghua-controller/' | relative_url }})
 
@@ -57,7 +57,7 @@ A collection of early robotics demos and reproduction exercises:
 - **Unreal Engine UAV tests:** Takeoff, landing, flight paths, multi-drone control, and trajectory fitting.
 - **Campus scene mapping:** Point-cloud visualization in RViz.
 
-<a href="{{ '/projects/undergraduate-demos/' | relative_url }}"><img src="{{ '/images/projects/undergraduate-demos/line-following-grasping.jpg' | relative_url }}" alt="Early undergraduate mobile robot demo on a line-following course" loading="lazy" style="width:100%;max-width:640px;height:auto;"></a>
+<a href="{{ '/projects/undergraduate-demos/' | relative_url }}"><img src="{{ '/images/projects/undergraduate-demos/line-following-grasping.jpg' | relative_url }}?v=wm1" alt="Early undergraduate mobile robot demo on a line-following course" loading="lazy" style="width:100%;max-width:640px;height:auto;"></a>
 
 [Explore five small projects and six demo videos]({{ '/projects/undergraduate-demos/' | relative_url }})
 
