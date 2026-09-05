@@ -14,11 +14,13 @@ I received dual bachelor's degrees in Mechatronics Engineering and Software Engi
 Starting in 2024, I undertook research internships at Tsinghua University. I worked on a research project advised by [Prof. Fuchun Sun](https://www.cs.tsinghua.edu.cn/info/1121/3555.htm) at the [National Key Laboratory of Intelligent Technology and Systems](https://www.cs.tsinghua.edu.cn/info/1061/1023.htm) in the Department of Computer Science and Technology. My internship at the [Institute for AI Industry Research (AIR)](https://air.tsinghua.edu.cn/) was supervised by postdoctoral researchers [Weibin Gu](https://scholar.google.com/citations?user=PDP31hEAAAAJ&hl=en) and [Lu Shi](https://scholar.google.com.hk/citations?hl=zh-CN&user=GhAmKBQAAAAJ).
 
 ## Research interests
-During my undergraduate studies, I focused on robot mobility and manipulation. I gained extensive experience implementing and reproducing research in perception, navigation, and manipulation across UAVs, UGVs, quadrupeds, humanoids, and robotic arms.
+During my undergraduate studies, I focused on practical work in robot mobility and manipulation. I gained hands-on experience in engineering implementation and reproducing published research in perception, navigation, motion control, and manipulation across UAVs, UGVs, quadrupeds, humanoids, and robotic arms.
 
-My current research focuses on incorporating robots' physical capabilities into perception and planning.
+My research interests center on autonomous learning for embodied robots in unstructured, real-world environments. I am particularly interested in how robots can understand their own capabilities for movement and interaction, and incorporate models of these capabilities into perception, planning, and control to make feasible decisions about their actions given their embodiment and environmental constraints.
 
-If you have ideas or projects related to these interests, please feel free to contact me. I welcome opportunities to collaborate, exchange ideas, and learn from others.
+My current research focuses on robot motion control and autonomous navigation. In the future, I hope to extend this work to mobile manipulation and long-horizon task execution.
+
+If you have ideas, projects, or an interest in collaborating on these topics, please feel free to get in touch.
 
 
 ## News
