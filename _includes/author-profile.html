@@ -31,10 +31,10 @@
         <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Personal Blog</a></li>
       {% endif %}
       {% if author.capability_aware %}
-        <li><a href="{{ author.capability_aware }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Capability Aware</a></li>
+        <li><a href="{{ author.capability_aware }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Project Website</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
