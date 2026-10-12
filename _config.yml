@@ -28,6 +28,7 @@ author:
   location         : "Hangzhou, China"  # 所在地
   employer         : "Westlake University"  # 工作单位
   uri              : "https://www.yuque.com/xiaobaigao-axvlp/" # 个人网站URL
+  capability_aware : "https://capability-aware.github.io/" # 科研项目展示主页
   email            : "zhanghao15@westlake.edu.cn"  # 邮箱地址
 
   # Academic websites - 学术网站链接
